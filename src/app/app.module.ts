@@ -17,6 +17,7 @@ import {CalculatorComponent} from "./component/calculator/calculator.component";
 import {TextlengthComponent} from "./component/textlength/textlength.component";
 import {CurrencyconverterComponent} from "./component/currencyconverter/currencyconverter.component";
 import {EvenoddcheckerComponent} from "./component/evenoddchecker/evenoddchecker.component";
+import {WordreverserComponent} from "./component/wordreverser/wordreverser.component";
 
 
 const routes: Routes = [
@@ -31,6 +32,8 @@ const routes: Routes = [
   {path: 'textlength', component: TextlengthComponent},
   {path: 'currencyconverter', component: CurrencyconverterComponent},
   {path: 'evenoddchecker', component: EvenoddcheckerComponent},
+  {path: 'wordreverser', component: WordreverserComponent},
+
 
 
 
@@ -59,6 +62,7 @@ const routes: Routes = [
     TextlengthComponent,
     CurrencyconverterComponent,
     EvenoddcheckerComponent,
+    WordreverserComponent,
   ],
 
   providers:[
