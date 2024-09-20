@@ -39,6 +39,9 @@ import {WordshufflerComponent} from "./component/wordshuffler/wordshuffler.compo
 import {BmisolverComponent} from "./component/bmisolver/bmisolver.component";
 import {UsernamevalidatorComponent} from "./component/usernamevalidator/usernamevalidator.component";
 import {InterestcalculatorComponent} from "./component/interestcalculator/interestcalculator.component";
+import {
+  CompoundinterestcalculatorComponent
+} from "./component/compoundinterestcalculator/compoundinterestcalculator.component";
 
 
 const routes: Routes = [
@@ -75,6 +78,7 @@ const routes: Routes = [
   {path: 'bmisolver', component:BmisolverComponent},
   {path: 'usernamevalidator', component:UsernamevalidatorComponent},
   {path: 'interestcalculator', component:InterestcalculatorComponent},
+  {path: 'compoundinterestcalculator', component:CompoundinterestcalculatorComponent},
 
 
 
@@ -125,6 +129,7 @@ const routes: Routes = [
     BmisolverComponent,
     UsernamevalidatorComponent,
     InterestcalculatorComponent,
+    CompoundinterestcalculatorComponent,
   ],
 
   providers:[
