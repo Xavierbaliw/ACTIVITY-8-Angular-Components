@@ -26,6 +26,7 @@ import {FahrenheittocelsiusComponent} from "./component/fahrenheittocelsius/fahr
 import {BookmarklistComponent} from "./component/bookmarklist/bookmarklist.component";
 import {CharactercounterComponent} from "./component/charactercounter/charactercounter.component";
 import {PalindromecheckerComponent} from "./component/palindromechecker/palindromechecker.component";
+import {TemperatureconverterComponent} from "./component/temperatureconverter/temperatureconverter.component";
 
 
 const routes: Routes = [
@@ -49,6 +50,7 @@ const routes: Routes = [
   {path: 'bookmarklist', component: BookmarklistComponent},
   {path: 'charactercounter', component: CharactercounterComponent},
   {path: 'palindromechecker', component: PalindromecheckerComponent},
+  {path: 'temperatureconverter', component: TemperatureconverterComponent},
 
 
 
@@ -86,6 +88,7 @@ const routes: Routes = [
     BookmarklistComponent,
     CharactercounterComponent,
     PalindromecheckerComponent,
+    TemperatureconverterComponent,
   ],
 
   providers:[
