@@ -37,6 +37,7 @@ import {MultiplicationcheckerComponent} from "./component/multiplicationchecker/
 import {UppercaseconverterComponent} from "./component/uppercaseconverter/uppercaseconverter.component";
 import {WordshufflerComponent} from "./component/wordshuffler/wordshuffler.component";
 import {BmisolverComponent} from "./component/bmisolver/bmisolver.component";
+import {UsernamevalidatorComponent} from "./component/usernamevalidator/usernamevalidator.component";
 
 
 const routes: Routes = [
@@ -71,6 +72,7 @@ const routes: Routes = [
   {path: 'uppercaseconverter', component:UppercaseconverterComponent},
   {path: 'wordshuffler', component:WordshufflerComponent},
   {path: 'bmisolver', component:BmisolverComponent},
+  {path: 'usernamevalidator', component:UsernamevalidatorComponent},
 
 
 
@@ -119,6 +121,7 @@ const routes: Routes = [
     UppercaseconverterComponent,
     WordshufflerComponent,
     BmisolverComponent,
+    UsernamevalidatorComponent
   ],
 
   providers:[
