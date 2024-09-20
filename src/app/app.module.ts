@@ -12,6 +12,7 @@ import {DisplaynameComponent} from "./component/displayname/displayname.componen
 import {CounterComponent} from "./component/counter/counter.component";
 import {SimpleformComponent} from "./component/simpleform/simpleform.component";
 import {UserageComponent} from "./component/userage/userage.component";
+import {UsergreetingComponent} from "./component/usergreeting/usergreeting.component";
 
 
 const routes: Routes = [
@@ -21,6 +22,8 @@ const routes: Routes = [
   {path: 'counter', component: CounterComponent},
   {path: 'simpleform', component: SimpleformComponent},
   {path: 'userage', component: UserageComponent},
+  {path: 'usergreeting', component: UsergreetingComponent},
+
 
 
 
@@ -43,6 +46,7 @@ const routes: Routes = [
     CounterComponent,
     SimpleformComponent,
     UserageComponent,
+    UsergreetingComponent,
   ],
 
   providers:[
