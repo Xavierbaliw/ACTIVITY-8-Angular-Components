@@ -1,0 +1,17 @@
+<form (ngSubmit)="onSubmit()" #userForm="ngForm">
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name" [(ngModel)]="userData.name" required>
+  <br><br>
+
+  <label for="contact">Contact No:</label>
+  <input type="contact" id="contact" name="contact" [(ngModel)]="userData.contact" required>
+  <br><br>
+
+  <button type="submit" [disabled]="!userForm.form.valid">Submit</button>
+</form>
+
+<h2 *ngIf="submitted">Submitted Info:</h2>
+<ul *ngIf="submitted">
+  <li><strong>Name:</strong> {{ submittedData.name }}</li>
+  <li><strong>Contact No:</strong> {{ submittedData.contact }}</li>
+</ul>
