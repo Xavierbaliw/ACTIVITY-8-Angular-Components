@@ -50,6 +50,7 @@ import {DailyjournalComponent} from "./component/dailyjournal/dailyjournal.compo
 import {SimpleregisterComponent} from "./component/simpleregister/simpleregister.component";
 import {SimpleflashlightComponent} from "./component/simpleflashlight/simpleflashlight.component";
 import {AppealformComponent} from "./component/appealform/appealform.component";
+import {GuesscolorComponent} from "./component/guesscolor/guesscolor.component";
 
 
 const routes: Routes = [
@@ -97,6 +98,7 @@ const routes: Routes = [
   {path: 'simpleregister', component:SimpleregisterComponent},
   {path: 'simpleflashlight', component:SimpleflashlightComponent},
   {path: 'appealform', component:AppealformComponent},
+  {path: 'guesscolor', component:GuesscolorComponent},
 
 
 
@@ -159,6 +161,7 @@ const routes: Routes = [
     DailyjournalComponent,
     SimpleregisterComponent,
     AppealformComponent,
+    GuesscolorComponent,
   ],
 
   providers:[
