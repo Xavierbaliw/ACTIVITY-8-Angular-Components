@@ -39,9 +39,7 @@ import {WordshufflerComponent} from "./component/wordshuffler/wordshuffler.compo
 import {BmisolverComponent} from "./component/bmisolver/bmisolver.component";
 import {UsernamevalidatorComponent} from "./component/usernamevalidator/usernamevalidator.component";
 import {InterestcalculatorComponent} from "./component/interestcalculator/interestcalculator.component";
-import {
-  CompoundinterestcalculatorComponent
-} from "./component/compoundinterestcalculator/compoundinterestcalculator.component";
+import {CompoundinterestcalculatorComponent} from "./component/compoundinterestcalculator/compoundinterestcalculator.component";
 import {FibonaccigeneratorComponent} from "./component/fibonaccigenerator/fibonaccigenerator.component";
 import {OddsumcalculatorComponent} from "./component/oddsumcalculator/oddsumcalculator.component";
 import {CurrencyformatterComponent} from "./component/currencyformatter/currencyformatter.component";
@@ -50,6 +48,7 @@ import {UppercasegreetingComponent} from "./component/uppercasegreeting/uppercas
 import {DivisiblecheckerComponent} from "./component/divisiblechecker/divisiblechecker.component";
 import {DailyjournalComponent} from "./component/dailyjournal/dailyjournal.component";
 import {SimpleregisterComponent} from "./component/simpleregister/simpleregister.component";
+import {SimpleflashlightComponent} from "./component/simpleflashlight/simpleflashlight.component";
 
 
 const routes: Routes = [
@@ -95,6 +94,8 @@ const routes: Routes = [
   {path: 'divisiblechecker', component:DivisiblecheckerComponent},
   {path: 'dailyjournal', component:DailyjournalComponent},
   {path: 'simpleregister', component:SimpleregisterComponent},
+  {path: 'simpleflashlight', component:SimpleflashlightComponent},
+
 
 
 
@@ -106,7 +107,9 @@ const routes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(routes, {enableTracing: true}),
-    FormsModule
+    FormsModule,
+    SimpleflashlightComponent,
+    SimpleflashlightComponent
 
   ],
   declarations:[
