@@ -55,6 +55,7 @@ import {DivisioncheckerComponent} from "./component/divisionchecker/divisionchec
 import {DivisiontableComponent} from "./component/divisiontable/divisiontable.component";
 import {CheckmbpsComponent} from "./component/checkmbps/checkmbps.component";
 import {PingcheckerComponent} from "./component/pingchecker/pingchecker.component";
+import {CreatingbracketComponent} from "./component/creatingbracket/creatingbracket.component";
 
 
 const routes: Routes = [
@@ -107,6 +108,7 @@ const routes: Routes = [
   {path: 'divisiontable', component:DivisiontableComponent},
   {path: 'checkmbps', component:CheckmbpsComponent},
   {path: 'pingchecker', component:PingcheckerComponent},
+  {path: 'creatingbracket', component:CreatingbracketComponent},
 
 
 
@@ -174,6 +176,7 @@ const routes: Routes = [
     DivisiontableComponent,
     CheckmbpsComponent,
     PingcheckerComponent,
+    CreatingbracketComponent,
   ],
 
   providers:[

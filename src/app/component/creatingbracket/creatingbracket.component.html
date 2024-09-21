@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Creating Bracket</h2>
+  <form>
+    <label for="teamCount">Team Count:</label>
+    <input type="number" [(ngModel)]="teamCount" name="teamCount" id="teamCount" />
+    <button (click)="createBracket()">Create Bracket</button>
+    <div *ngIf="bracket">
+      <h3>Bracket:</h3>
+      <ul>
+        <li *ngFor="let group of bracket">
+          {{ group.name }}:
+          <ul>
+            <li *ngFor="let team of group.teams">{{ team }}</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </form>
+</div>
