@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Division Checker</h2>
+  <form>
+    <label for="num1Input">Enter the first number:</label>
+    <input type="number" [(ngModel)]="num1" name="num1" id="num1Input" />
+    <br>
+    <label for="num2Input">Enter the second number:</label>
+    <input type="number" [(ngModel)]="num2" name="num2" id="num2Input" />
+    <br>
+    <button (click)="checkDivision()">Check Division</button>
+    <p id="result">{{ result }}</p>
+  </form>
+</div>

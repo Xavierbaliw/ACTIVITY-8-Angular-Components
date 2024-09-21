@@ -51,6 +51,7 @@ import {SimpleregisterComponent} from "./component/simpleregister/simpleregister
 import {SimpleflashlightComponent} from "./component/simpleflashlight/simpleflashlight.component";
 import {AppealformComponent} from "./component/appealform/appealform.component";
 import {GuesscolorComponent} from "./component/guesscolor/guesscolor.component";
+import {DivisioncheckerComponent} from "./component/divisionchecker/divisionchecker.component";
 
 
 const routes: Routes = [
@@ -99,6 +100,8 @@ const routes: Routes = [
   {path: 'simpleflashlight', component:SimpleflashlightComponent},
   {path: 'appealform', component:AppealformComponent},
   {path: 'guesscolor', component:GuesscolorComponent},
+  {path: 'divisionchecker', component:DivisioncheckerComponent},
+
 
 
 
@@ -162,6 +165,7 @@ const routes: Routes = [
     SimpleregisterComponent,
     AppealformComponent,
     GuesscolorComponent,
+    DivisioncheckerComponent,
   ],
 
   providers:[
