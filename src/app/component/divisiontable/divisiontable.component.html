@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Division Table</h2>
+  <form>
+    <label for="numInput">Enter a number:</label>
+    <input type="number" [(ngModel)]="num" name="num" id="numInput" />
+    <button (click)="generateTable()">Generate Table</button>
+    <table>
+      <tr *ngFor="let row of table">
+        <td>{{ row.num }}</td>
+        <td>{{ row.result }}</td>
+      </tr>
+    </table>
+  </form>
+</div>
