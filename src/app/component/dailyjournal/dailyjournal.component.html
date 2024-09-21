@@ -1,0 +1,17 @@
+<!-- daily-journal.component.html -->
+<div class="daily-journal">
+  <h1>Daily Journal</h1>
+  <form>
+    <label>Enter today's date:</label>
+    <input type="date" [(ngModel)]="date">
+    <br>
+    <label>Write your journal entry:</label>
+    <textarea [(ngModel)]="entry"></textarea>
+    <button (click)="saveEntry()">Save Entry</button>
+  </form>
+  <ul>
+    <li *ngFor="let entry of journalEntries">
+      {{ entry.date }}: {{ entry.text }}
+    </li>
+  </ul>
+</div>

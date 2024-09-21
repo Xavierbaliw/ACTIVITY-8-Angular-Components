@@ -48,6 +48,7 @@ import {CurrencyformatterComponent} from "./component/currencyformatter/currency
 import {RandomquotedisplayComponent} from "./component/randomquotedisplay/randomquotedisplay.component";
 import {UppercasegreetingComponent} from "./component/uppercasegreeting/uppercasegreeting.component";
 import {DivisiblecheckerComponent} from "./component/divisiblechecker/divisiblechecker.component";
+import {DailyjournalComponent} from "./component/dailyjournal/dailyjournal.component";
 
 
 const routes: Routes = [
@@ -91,7 +92,7 @@ const routes: Routes = [
   {path: 'randomquotedisplay', component:RandomquotedisplayComponent},
   {path: 'uppercasegreeting', component:UppercasegreetingComponent},
   {path: 'divisiblechecker', component:DivisiblecheckerComponent},
-
+  {path: 'dailyjournal', component:DailyjournalComponent},
 
 
 
@@ -149,6 +150,7 @@ const routes: Routes = [
     RandomquotedisplayComponent,
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
+    DailyjournalComponent,
   ],
 
   providers:[
