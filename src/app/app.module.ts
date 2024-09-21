@@ -5,7 +5,7 @@ import {CommonModule} from "@angular/common";
 import {BrowserModule} from "@angular/platform-browser";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {AppComponent} from "./app.component";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {DisplayhelloworldComponent} from "./component/displayhelloworld/displayhelloworld.component";
 import {ShowhellobuttonComponent} from "./component/showhellobutton/showhellobutton.component";
 import {DisplaynameComponent} from "./component/displayname/displayname.component";
@@ -49,6 +49,7 @@ import {DivisiblecheckerComponent} from "./component/divisiblechecker/divisiblec
 import {DailyjournalComponent} from "./component/dailyjournal/dailyjournal.component";
 import {SimpleregisterComponent} from "./component/simpleregister/simpleregister.component";
 import {SimpleflashlightComponent} from "./component/simpleflashlight/simpleflashlight.component";
+import {AppealformComponent} from "./component/appealform/appealform.component";
 
 
 const routes: Routes = [
@@ -95,6 +96,7 @@ const routes: Routes = [
   {path: 'dailyjournal', component:DailyjournalComponent},
   {path: 'simpleregister', component:SimpleregisterComponent},
   {path: 'simpleflashlight', component:SimpleflashlightComponent},
+  {path: 'appealform', component:AppealformComponent},
 
 
 
@@ -108,8 +110,7 @@ const routes: Routes = [
     BrowserAnimationsModule,
     RouterModule.forRoot(routes, {enableTracing: true}),
     FormsModule,
-    SimpleflashlightComponent,
-    SimpleflashlightComponent
+    ReactiveFormsModule,
 
   ],
   declarations:[
@@ -157,6 +158,7 @@ const routes: Routes = [
     DivisiblecheckerComponent,
     DailyjournalComponent,
     SimpleregisterComponent,
+    AppealformComponent,
   ],
 
   providers:[
