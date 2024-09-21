@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>Check Mbps</h2>
+  <form>
+    <label for="mbpsInput">Enter Mbps:</label>
+    <input type="number" [(ngModel)]="mbps" name="mbps" id="mbpsInput" />
+    <button (click)="checkMbps()">Check</button>
+    <p *ngIf="result">{{ result }}</p>
+  </form>
+</div>
