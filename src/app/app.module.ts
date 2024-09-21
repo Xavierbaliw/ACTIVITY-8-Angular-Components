@@ -54,6 +54,7 @@ import {GuesscolorComponent} from "./component/guesscolor/guesscolor.component";
 import {DivisioncheckerComponent} from "./component/divisionchecker/divisionchecker.component";
 import {DivisiontableComponent} from "./component/divisiontable/divisiontable.component";
 import {CheckmbpsComponent} from "./component/checkmbps/checkmbps.component";
+import {PingcheckerComponent} from "./component/pingchecker/pingchecker.component";
 
 
 const routes: Routes = [
@@ -105,6 +106,7 @@ const routes: Routes = [
   {path: 'divisionchecker', component:DivisioncheckerComponent},
   {path: 'divisiontable', component:DivisiontableComponent},
   {path: 'checkmbps', component:CheckmbpsComponent},
+  {path: 'pingchecker', component:PingcheckerComponent},
 
 
 
@@ -171,6 +173,7 @@ const routes: Routes = [
     DivisioncheckerComponent,
     DivisiontableComponent,
     CheckmbpsComponent,
+    PingcheckerComponent,
   ],
 
   providers:[

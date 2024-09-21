@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>Check Ping Game</h2>
+  <form>
+    <label for="pingInput">Enter Ping (ms):</label>
+    <input type="number" [(ngModel)]="ping" name="ping" id="pingInput" />
+    <button (click)="checkPing()">Check</button>
+    <p *ngIf="result">{{ result }}</p>
+  </form>
+</div>
