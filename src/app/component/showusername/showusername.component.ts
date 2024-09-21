@@ -13,5 +13,4 @@ export class ShowusernameComponent {
   displayUsername(): void {
     this.message = `Hello Pogi, ${this.username}!`;
   }
-
 }

@@ -14,5 +14,4 @@ export class DisplaynameComponent {
     this.displayname = this.name
 
   }
-
 }
