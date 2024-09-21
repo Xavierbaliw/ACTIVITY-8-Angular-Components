@@ -49,6 +49,7 @@ import {RandomquotedisplayComponent} from "./component/randomquotedisplay/random
 import {UppercasegreetingComponent} from "./component/uppercasegreeting/uppercasegreeting.component";
 import {DivisiblecheckerComponent} from "./component/divisiblechecker/divisiblechecker.component";
 import {DailyjournalComponent} from "./component/dailyjournal/dailyjournal.component";
+import {SimpleregisterComponent} from "./component/simpleregister/simpleregister.component";
 
 
 const routes: Routes = [
@@ -93,6 +94,7 @@ const routes: Routes = [
   {path: 'uppercasegreeting', component:UppercasegreetingComponent},
   {path: 'divisiblechecker', component:DivisiblecheckerComponent},
   {path: 'dailyjournal', component:DailyjournalComponent},
+  {path: 'simpleregister', component:SimpleregisterComponent},
 
 
 
@@ -151,6 +153,7 @@ const routes: Routes = [
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
     DailyjournalComponent,
+    SimpleregisterComponent,
   ],
 
   providers:[

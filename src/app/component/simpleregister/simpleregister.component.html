@@ -1,0 +1,17 @@
+<!-- simple-register.component.html -->
+<div class="simple-register">
+  <h1>Register</h1>
+  <form (ngSubmit)="register()">
+    <label>Email:</label>
+    <input type="email" [(ngModel)]="email">
+    <br>
+    <label>Password:</label>
+    <input type="password" [(ngModel)]="password">
+    <br>
+    <button type="submit">Register</button>
+  </form>
+  <div *ngIf="isRegistered">
+    <h1>Success!</h1>
+    <p>You are successfully registered!</p>
+  </div>
+</div>
